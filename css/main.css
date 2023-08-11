@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --light-text: #fff;
+    }
+
+img {
+    display:block;
+    max-width: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,8 +24,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 1478px;
-    height: 890px;
     text-align: center;
     padding: 20px;
     background-color: #fff;
@@ -46,7 +58,7 @@ header {
 }
 
 h1 {
-    color: var(--light-text, #FFF);
+    color: var(--light-text);
     text-align: center;
     font-family: Graphik;
     font-size: 74px;
@@ -57,12 +69,12 @@ h1 {
 }
 
 h4 {
-    color: var(--light-text, #FFF);
+    color: var(--light-text);
     text-align: center;
     font-family: Graphik;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px; /* 142.857% */
+    line-height: 40px;
     letter-spacing: 0.2px;
 }
